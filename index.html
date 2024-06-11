@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- bootstrap -->
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <!-- slick -->
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- google fonts -->
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-custom.css"/>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar-tre navbar-expand-lg bgimportant">
+        <hr class="md-mt-3 divider-line" />
+      <div class="container">
+        <header class="d-flex flex-row">
+          <button class="hamburger__toggle">
+            <span class="hamburger__icon"></span>
+          </button>
+        <div class="col-lg-3 col-sm-10 px-3 marvel">
+          <a href="index.html" class="d-inline-flex link-body-emphasis text-decoration-none">
+            <h2 class="navbar-logo">Mar<b style="color: #5c45fd">v</b>el<b style="color: #5c45fd">.</b></h2>
+          </a>
+        </div>
+        <div class="col-lg-6 py-2">
+            <div class="menu-container">
+              
+              <div class="d-flex justify-content-center align-items-center">
+                <ul class="nav nav-pills">
+                  <li class="nav-item py-1 redirect">Redirections</li>
+                  <li class="nav-item nav-link-group">
+                    <a href="about.html" class="nav-link link-link">Why Us</a>
+                  </li>
+                  <li class="nav-item nav-link-group">
+                    <a href="#caseStudies" class="nav-link link-link">Case Studies</a>
+                  </li>
+                  <li class="nav-item nav-link-group">
+                    <a href="#testimational" class="nav-link link-link">Testimonials</a>
+                  </li>
+                  <li class="nav-item nav-link-group">
+                    <a href="#" class="nav-link link-link">FAQ</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-3 col-sm-2 py-2">
+                <div class="d-flex justify-content-end align-items-center">
+                    <button class="btn btn-primary me-1" onclick="goToAbout()">Let's Talk  <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+            </div>
+        </header>
+        <!-- header ends -->
+      </div>
+      <hr class="mb-3 divider-line" />
+    </nav>
+    <section class="custom-section">
+      <div class="container">
+        <div class="col-md-10 star-parent">
+          <img class="star-animate" src="animate/star-animate.png" alt="star-animate">
+          <h1 class="main-page-title">We develop <b class="gradient-bold">amazing</b> websites for your business<b style="color: #5c45fd" >.</b></h1></h2>
+        </div>
+        <div class="col-md-8 mb-3"><p class="main-page-text">Discover our seamless workflow as we transform Figma designs into stunning Webflow websites. Explore the synergy between design and development for a pixel-perfect online experience.</p></div>
+        <!-- Slogan title and content text ends -->
+        <div class="d-flex align-items-center">
+          <button class="btn btn-outline-primary me-1 my-4 p-3 px-4">View Work  <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+          <div class="prfile-row px-3 mx-3">
+            <img src="./profile-img/bebek1.png" alt="Avatar" class="avatar avatar-1">
+            <img src="./profile-img/bebek1.png" alt="Avatar" class="avatar avatar-2">
+            <img src="./profile-img/bebek1.png" alt="Avatar" class="avatar avatar-3">
+          </div>
+          <div class="p-2">
+            <h3 class="pt-3" style="color:#f5f5f5;">1000+</h3>
+            <p style="color:#969799;">Satisfied clients</p>
+          </div>
+        </div>
+        <!-- button and Satisfied clients ends -->
+         <div class="row">
+          <h3 class="int-title">Showcase</h3>
+            <div class="mySlider">
+              <div class="card slider-brands"><img src="animate/sliderBrand1.png" alt="sliderBrand1"></div>
+              <div class="card slider-brands"><img src="animate/sliderBrand2.png" alt="sliderBrand2"></div>
+              <div class="card slider-brands"><img src="animate/sliderBrand3.png" alt="sliderBrand3"></div>
+              <div class="card slider-brands"><img src="animate/sliderBrand4.png" alt="sliderBrand4"></div>
+              <div class="card slider-brands"><img src="animate/brandSlider.jpg" alt="brandSlider"></div>
+              <div class="card slider-brands"><img src="animate/sliderBrand1.png" alt="sliderBrand1"></div>
+              <div class="card slider-brands"><img src="animate/sliderBrand2.png" alt="sliderBrand2"></div>
+              <div class="card slider-brands"><img src="animate/sliderBrand3.png" alt="sliderBrand3"></div>
+              <div class="card slider-brands"><img src="animate/sliderBrand4.png" alt="sliderBrand4"></div>
+            </div>
+         </div>
+         <!-- slider ends -->
+      </div>
+      <!-- grid content starts -->
+      <div class="container">
+        <div class="service-title pt-3 mt-4" id="testimational">SERVICE</div>
+        <div class="row py-3 mb-4">
+          <div class="col-12 service-star-parent">
+            <div class="service-star">
+              <img src="animate/star-animate.png" alt="star-animate">
+            </div>
+            <h2 class="service-inner-title">Exceeding Expectations</h2>
+          </div>
+        </div>
+        <p class="inner-text main-page-text">We're not just another agency, we're your path to exceptional web projects.</p>
+
+        <div class="parentGrid py-3">
+          <div class="parentGrid1"> 
+            <div class="card card-bg" style="max-width: 26rem;">
+              <div class="card-body">
+                <div class="p-3 box d-flex align-items-center justify-content-center box">
+                  <i class="fa-solid fa-trophy fa-2xl" style="color: #5c45fd;"></i>
+                </div>
+                <h5 class="card-title card-title-customize card-title-customize">Expertise in Figma to Website</h5>
+                <p class="card-text card-text-customize card-text-customize">There is an exapmle content text</p>
+                <a href="#" class="btn btn-outline-primary card-text-btn-custom"><i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="parentGrid2">
+            <div class="card card-bg" style="max-width: 26rem;">
+            <div class="card-body">
+              <div class="p-3 box d-flex align-items-center justify-content-center">
+                  <i class="fa-solid fa-location-dot fa-2xl" style="color: #5c45fd;"></i>
+                </div>
+              <h5 class="card-title card-title-customize">On-Page SEO Excellence</h5>
+              <p class="card-text card-text-customize">There is an exapmle content text</p>
+              <a href="#" class="btn btn-outline-primary card-text-btn-custom"><i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+          </div></div>
+          <div class="parentGrid3">
+            <div class="card card-bg" style="max-width: 26rem;">
+              <div class="card-body">
+                <div class="p-3 box d-flex align-items-center justify-content-center">
+                  <i class="fa-solid fa-bolt fa-2xl" style="color: #5c45fd;"></i>
+                </div>
+                <h5 class="card-title card-title-customize">Interactive Design</h5>
+                <p class="card-text card-text-customize">There is an exapmle content text</p>
+                <a href="#" class="btn btn-outline-primary card-text-btn-custom"><i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="parentGrid4">
+            <div class="card card-bg" style="max-width: 26rem;">
+              <div class="card-body">
+                <div class="p-3 box d-flex align-items-center justify-content-center">
+                  <i class="fa-solid fa-comment fa-2xl" style="color: #5c45fd;"></i>
+                </div>
+                <h5 class="card-title card-title-customize">Dedicated Project Manager</h5>
+                <p class="card-text card-text-customize">There is an exapmle content text</p>
+                <a href="#" class="btn btn-outline-primary card-text-btn-custom"><i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="parentGrid5">
+            <div class="card card-bg" style="max-width: 26rem;">
+              <div class="card-body">
+                <div class="p-3 box d-flex align-items-center justify-content-center">
+                  <i class="fa-solid fa-feather-pointed fa-2xl" style="color: #5c45fd;"></i>
+                </div>
+                <h5 class="card-title card-title-customize">Comprehensive Testing</h5>
+                <p class="card-text card-text-customize">There is an exapmle content text</p>
+                <a href="#" class="btn btn-outline-primary card-text-btn-custom"><i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="parentGrid6">
+            <div class="card card-bg" style="max-width: 26rem;">
+              <div class="card-body">
+                <div class="p-3 box d-flex align-items-center justify-content-center">
+                  <i class="fa-solid fa-clock fa-2xl" style="color: #5c45fd;"></i>
+                </div>
+                <h5 class="card-title card-title-customize">Timely Delivery</h5>
+                <p class="card-text card-text-customize">There is an exapmle content text</p>
+                <a href="#" class="btn btn-outline-primary card-text-btn-custom"><i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          </div>
+      </div>
+      <!-- grid content ends -->
+      
+      <div class="container">
+        <div class="service-title pt-3 mt-4">PORTFOLIO</div>
+        <div class="row py-3 mb-4">
+          <div class="col-12 service-star-parent">
+            <div class="service-star">
+              <img src="animate/star-animate.png" alt="star-animate">
+            </div>
+            <h2 class="service-inner-title" id="caseStudies">Our Latest Works</h2>
+          </div>
+        </div>
+        <p class="inner-text main-page-text">Discover our freshest creations that showcase the power of design innovation and digital excellence. Explore our works and witness the impact we bring to each project.</p>
+
+        <div class="parentGrid py-3">
+          <div class="parentGrid1">
+
+              <div class="card-body">
+                <div class="card-image-box">
+                  <img src="profile-img/ourwork1.jpg" alt="ourwork1">
+                </div>
+              </div>
+
+          </div>
+          <div class="parentGrid2">
+
+            <div class="card-body">
+              <div class="card-image-box">
+                <img src="profile-img/ourwork2.jpg" alt="ourwork2">
+              </div>
+            </div>
+
+        </div>
+        <div class="parentGrid3">
+
+          <div class="card-body">
+            <div class="card-image-box">
+              <img src="profile-img/ourwork3.jpg" alt="ourwork3">
+            </div>
+          </div>
+
+      </div>
+      <div class="parentGrid4">
+
+        <div class="card-body">
+          <div class="card-image-box">
+            <img src="profile-img/ourwork4.jpg" alt="ourwork4">
+          </div>
+        </div>
+
+    </div>
+    <div class="parentGrid5">
+
+      <div class="card-body">
+        <div class="card-image-box">
+          <img src="profile-img/ourwork5.jpg" alt="ourwork5">
+        </div>
+      </div>
+
+  </div>
+  <div class="parentGrid6">
+
+    <div class="card-body">
+      <div class="card-image-box">
+        <img src="profile-img/ourwork6.jpg" alt="ourwork6">
+      </div>
+    </div>
+
+</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="service-title pt-3 mt-4">PRICING</div>
+        <div class="row py-3 mb-4">
+          <div class="col-12 service-star-parent">
+            <div class="service-star">
+              <img src="animate/star-animate.png" alt="star-animate">
+            </div>
+            <h2 class="service-inner-title">One Fixed Price</h2>
+          </div>
+          <p class="inner-text main-page-text">Your custom on-demand team for only a single payment.</p>
+        </div>
+
+        <div class="row mb-5">
+          <div class="pricing-cards-parent container" id="pricing">
+            <div class="pricing-cards row d-flex justify-content-between">
+              <div class="col-lg-4 col-md-12 col-sm-12 mb-4">
+                <div class="card pricing-card-custom">
+                  <div class="card-body pricing-card-body-custom">
+                    <p class="main-page-text">
+                      Bacis
+                    </p>
+                    <div class="card-title card-inner-title">
+                      $45
+                    </div>
+                    <div class="pricing-card-text">
+                      Responsive 1 website deployment
+                    </div>
+                    <div class="d-flex mx-2 pt-3 align-items-center justify-content-start">
+                      <div class="align-items-center justify-content-center d-flex">
+                        <i class="fa-solid fa-circle-check" style="color: #5c45fd;"></i>
+                      </div>
+                      <p class="mt-2 mx-2 pricing-card-text">Functional Website</p>
+                    </div>
+                    <div class="d-flex mx-2 align-items-center justify-content-start">
+                      <div class="align-items-center justify-content-center d-flex">
+                        <i class="fa-solid fa-circle-check" style="color: #5c45fd;"></i>
+                      </div>
+                      <p class="mt-2 mx-2 pricing-card-text">Functional Website</p>
+                    </div>
+                    <div class="d-flex mx-2 align-items-center justify-content-start">
+                      <div class="align-items-center justify-content-center d-flex">
+                        <i class="fa-solid fa-circle-check" style="color: #5c45fd;"></i>
+                      </div>
+                      <p class="mt-2 mx-2 pricing-card-text">Functional Website</p>
+                    </div>
+                    <div class="d-flex mx-2 align-items-center justify-content-start">
+                      <div class="align-items-center justify-content-center d-flex">
+                        <i class="fa-solid fa-circle-check" style="color: #5c45fd;"></i>
+                      </div>
+                      <p class="mt-2 mx-2 pricing-card-text">Functional Website</p>
+                    </div>
+                    <div class="btn btn-outline-primary w-100 py-2 my-2">Get Started  <i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12 mb-4">
+              <div class="card pricing-card-custom">
+                <div class="card-body pricing-card-body-custom">
+                  <p class="main-page-text">
+                    Standart
+                  </p>
+                  <div class="card-title card-inner-title">
+                    $75
+                  </div>
+                  <div class="pricing-card-text">
+                    Responsive 1 website deployment
+                  </div>
+                  <div class="d-flex mx-2 pt-3 align-items-center justify-content-start">
+                    <div class="align-items-center justify-content-center d-flex">
+                      <i class="fa-solid fa-circle-check" style="color: #5c45fd;"></i>
+                    </div>
+                    <p class="mt-2 mx-2 pricing-card-text">Functional Website</p>
+                  </div>
+                  <div class="d-flex mx-2 align-items-center justify-content-start">
+                    <div class="align-items-center justify-content-center d-flex">
+                      <i class="fa-solid fa-circle-check" style="color: #5c45fd;"></i>
+                    </div>
+                    <p class="mt-2 mx-2 pricing-card-text">Functional Website</p>
+                  </div>
+                  <div class="d-flex mx-2 align-items-center justify-content-start">
+                    <div class="align-items-center justify-content-center d-flex">
+                      <i class="fa-solid fa-circle-check" style="color: #5c45fd;"></i>
+                    </div>
+                    <p class="mt-2 mx-2 pricing-card-text">Functional Website</p>
+                  </div>
+                  <div class="d-flex mx-2 align-items-center justify-content-start">
+                    <div class="align-items-center justify-content-center d-flex">
+                      <i class="fa-solid fa-circle-check" style="color: #5c45fd;"></i>
+                    </div>
+                    <p class="mt-2 mx-2 pricing-card-text">Functional Website</p>
+                  </div>
+                  <div class="btn btn-outline-primary w-100 py-2 my-2">Get Started  <i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 mb-4">
+              <div class="card pricing-card-custom">
+                <div class="card-body pricing-card-body-custom">
+                  <p class="main-page-text">
+                    Premium
+                  </p>
+                  <div class="card-title card-inner-title">
+                    $100
+                  </div>
+                  <div class="pricing-card-text">
+                    Responsive 1 website deployment
+                  </div>
+                  <div class="d-flex mx-2 pt-3 align-items-center justify-content-start">
+                    <div class="align-items-center justify-content-center d-flex">
+                      <i class="fa-solid fa-circle-check" style="color: #5c45fd;"></i>
+                    </div>
+                    <p class="mt-2 mx-2 pricing-card-text">Functional Website</p>
+                  </div>
+                  <div class="d-flex mx-2 align-items-center justify-content-start">
+                    <div class="align-items-center justify-content-center d-flex">
+                      <i class="fa-solid fa-circle-check" style="color: #5c45fd;"></i>
+                    </div>
+                    <p class="mt-2 mx-2 pricing-card-text">Functional Website</p>
+                  </div>
+                  <div class="d-flex mx-2 align-items-center justify-content-start">
+                    <div class="align-items-center justify-content-center d-flex">
+                      <i class="fa-solid fa-circle-check" style="color: #5c45fd;"></i>
+                    </div>
+                    <p class="mt-2 mx-2 pricing-card-text">Functional Website</p>
+                  </div>
+                  <div class="d-flex mx-2 align-items-center justify-content-start">
+                    <div class="align-items-center justify-content-center d-flex">
+                      <i class="fa-solid fa-circle-check" style="color: #5c45fd;"></i>
+                    </div>
+                    <p class="mt-2 mx-2 pricing-card-text">Functional Website</p>
+                  </div>
+                  <div class="btn btn-outline-primary w-100 py-2 my-2">Get Started  <i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <footer class="py-5 border-top footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h1 class="navbar-logo">Mar<b style="color: #5c45fd">v</b>el<b style="color: #5c45fd">.</b></h1>
+
+          </div>
+          <div class="col-6 col-md-2 mb-3">
+            <h5>To Connect To Us</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-marvel">For Demo st. Demo Ad. Istanbul</a>
+              </li>
+            </ul>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-marvel"
+                  >fnp@demomail.com</a
+                >
+              </li>
+            </ul>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-marvel"
+                  >(321) 531-0526</a
+                >
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-6 col-md-2 mb-3 d-flex flex-column align-items-end">
+            <h5>Links</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="index.html" class="nav-link p-0 text-body-marvel">Home</a>
+              </li>
+            </ul>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#testimational" class="nav-link p-0 text-body-marvel"
+                  >Testimational</a
+                >
+              </li>
+            </ul>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#pricing" class="nav-link p-0 text-body-marvel"
+                  >Pricing</a
+                >
+              </li>
+            </ul>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-marvel">FAQs</a>
+              </li>
+            </ul>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="about.html" class="nav-link p-0 text-body-marvel">About</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form action="#">
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2024 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a
+              href="#"
+              class="footer-icon-badge-a col-md-4 d-flex flex-row justify-content-center align-items-center py-3"
+              
+            >
+              <i
+                class="fa-brands fa-x-twitter fa-2xl"
+                style="color: rgb(255, 255, 255);"
+              ></i>
+            </a>
+            </li>
+            <li class="ms-3">
+              <a
+              href="#"
+              class="footer-icon-badge-a col-md-4 d-flex flex-row justify-content-center align-items-center py-3"
+              
+            >
+              <i
+                class="fa-brands fa-instagram fa-2xl"
+                style="color: rgb(255, 255, 255);"
+              ></i>
+            </a>
+            </li>
+            <li class="ms-3">
+              <a
+              href="#"
+              class="footer-icon-badge-a col-md-4 d-flex flex-row justify-content-center align-items-center py-3"
+              
+            >
+              <i
+                class="fa-brands fa-facebook fa-2xl"
+                style="color: rgb(255, 255, 255);"
+              ></i>
+            </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </footer>
+        
+
+
+    <script type="text/javascript" src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script 
+      type="text/javascript" 
+      src="slick/slick.min.js">
+    </script>
+  </body>
+</html>
