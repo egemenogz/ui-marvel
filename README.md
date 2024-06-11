@@ -13,7 +13,7 @@ This project is a responsive portfolio website showcasing digital innovation and
 
 ## Installation ##
 1- Clone the repository:
-git clone https://github.com/yourusername/ui-marvel.git
+git clone https://github.com/egemeogz/ui-marvel.git
 
 2- Navigate to the project directory:
 cd ui-marvel
